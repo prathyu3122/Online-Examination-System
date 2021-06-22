@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+
+}
+
+header {
+	position: fixed;
+	background: #22242A;
+	padding: 20px;
+	width: 100%;
+	height: 70px;
+
+}
+
+
+.left_area h3{
+	color: #fff;
+	margin: -14px;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 900;
+	padding-left: 10px;
+}
+
+.logout_btn {
+	padding: 10px;
+	background: #19B3D3;
+	text-decoration: none;
+	float: right;
+	margin-top: -25px;
+	margin-right: 10px;
+	display: inline-block;
+	border-radius: 2px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	width: 140px;
+	height: 50px;
+	transition: 0.5s;
+	transition-property: background;
+}
+
+.logout_btn:hover {
+	background: #0D9DBB;
+}
+
+.sidebar {
+	background: #2F323A;
+	margin-top: 70px;
+	padding-top: 30px;
+	position: fixed;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	transition: 0.5s;
+	transition-property: left;
+}
+
+.sidebar .profile_image{
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+
+.sidebar a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	line-height: 60px;
+	text-decoration: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	transition-property: background;
+}
+
+.sidebar a:hover{
+	background: #007bff;
+
+}
+
+.sidebar i{
+	padding-right: 10px;
+}
+p{
+	color: #fff;
+}
+h2{
+    text-align: center;
+}
+.card-body{
+    margin-left: 250px;
+}
+#dataTable{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    width: 80%;
+}
+th,td{
+	padding: 15px;
+}
+.right_area {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	float: right;
+}

@@ -1,0 +1,79 @@
+.bg-img{
+  background-image: url("images/oems-1.png");
+  background-size: cover;
+  height: 100vh;
+
+}
+.text{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arail, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title-logo {
+    padding: 5px 0px 0px 0px;
+    margin-left: 30px;
+    float: left;
+}
+.titles {
+    text-align: center;
+    margin-top: 8px;
+    background-color: #ffffff;
+}
+.main{
+  color: #990000;
+  font-size: 35px;
+  font-family: Arail, Helvetica, sans-serif;
+  font-weight: bold;
+}
+p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -14px;
+    color: #990000;
+}
+
+.cardstyle {
+  text-align: center;
+}
+
+.card_text {
+  font-family: "Georgia";
+  font-size: 25px;
+  font-weight: bold;
+  color: #032c57;
+}
+
+footer {
+      padding: 0px 0px 0px 0px;
+      background-color: #212529;
+      margin: 0px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 23px;
+      width: 60px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+
+
+    p {
+      text-align: center;
+
+    }
+

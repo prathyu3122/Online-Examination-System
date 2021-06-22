@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+#form{
+  margin-top: 150px;
+  float: center;
+  margin-left: 350px;
+}
+
+header {
+  position: fixed;
+  background: #22242A;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+h1{
+  text-align: center;
+  margin-top: 0px
+}
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.logout_btn {
+  padding: 10px;
+  background: #19B3D3;
+  text-decoration: none;
+  float: right;
+  margin-top: -40px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  width: 100px;
+  height: 25px;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.logout_btn:hover {
+  background: #0D9DBB;
+}
+
+.sidebar {
+  background: #2F323A;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.sidebar .profile_image{
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #007bff;
+
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 450px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+.sidebar p{
+  font-size: 25px;
+  color: white;
+  width: 80px;
+}
+
+label #sidebar_btn:hover {
+  color: #007bff;
+}
+
+#check:checked ~.sidebar {
+  left: -190px;
+}
+
+#check:checked ~.sidebar a span{
+  display: none;
+}
+
+#check:checked ~.sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+#check {
+  display: none;
+}
+
+#Question{
+  display: block;
+  width: 80%;
+
+}
+#Option1{
+  display: block;
+  width: 80%;
+}
+#Option2{
+  display: block;
+  width: 80%;
+}
+#Option3{
+  display: block;
+  width: 80%;
+}
+#Option4{
+  display: block;
+  width: 80%;
+}
+#CA{
+  display: block;
+  width: 80%;
+}
+
+
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.b1{
+  background-color: #008CBA;
+}
+.b2{
+  background-color: #008CBA;
+}
