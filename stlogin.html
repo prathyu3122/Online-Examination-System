@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "icon" href = "css/images/logo-1.jpg" type = "image/x-icon">
+
+
+</head>
+<body>
+	<div>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-sm bg-primary navbar-dark text">
+	<a class="navbar-brand" href="index.php">Online Examination System</a>
+
+  
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  	<ul class="navbar-nav">
+    <li class="nav-item ml-5">
+      <a class="nav-link" href="index.php">Home</a>
+    </li>
+    <li class="nav-item ml-5">
+      <a class="nav-link" href="t_loginpage.php">Teacher</a>
+    </li>
+    <li class="nav-item ml-5">
+      <a class="nav-link" href="st_loginpage.php">Student</a>
+    </li>
+      <li class="nav-item ml-4" style="font-weight: bold;">
+        <a class="nav-link" href="admin_login.php">Admin</a>
+      </li>
+  </ul>
+  <ul class="navbar-nav navbar-right">
+      <!--<li class="nav-item mr-5"><a class="nav-link" href="stsign.html"><i class="glyphicon glyphicon-user"></i> Sign Up</a></li>-->
+    </ul>
+  	
+  </div>
+  
+</nav>
+<div class="container cardstyle">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 35rem; ">
+                    <img class="card-img-top" src="css/images/student.png" alt="Student">
+  
+                    <div class="card-body">
+                        <h5 class="card-title card_text">Student</h5>
+  
+                        <a href="st_loginpage.php" class="btn btn-primary"><i class="glyphicon glyphicon-log-in"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 35rem;">
+                    <img class="card-img-top" src="css/images/teacher.png" alt="Teacher">
+  
+                    <div class="card-body">
+                        <h5 class="card-title card_text">Teacher</h5>
+                 
+                        <a href="t_loginpage.php" class="btn btn-primary"><i class="glyphicon glyphicon-log-in"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 35rem; ">
+                    <img class="card-img-top" src="css/images/admin.jpg" alt="Admin">
+  
+                    <div class="card-body">
+                        <h5 class="card-title card_text">Admin</h5>
+  
+                        <a href="admin_login.php" class="btn btn-primary"><i class="glyphicon glyphicon-log-in"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	
+</body>
+</html>
